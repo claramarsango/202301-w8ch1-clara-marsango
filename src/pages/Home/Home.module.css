@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Starjedi;
+  src: url('../../../public/assets/starjedi/Starjedi.ttf');
+}
+
+.title {
+  padding: 1rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: Starjedi;
+  color: rgb(255, 232, 26);
+}
