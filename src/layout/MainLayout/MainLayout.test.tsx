@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import MainLayout from './MainLayout';
 
 describe('Given a main layout', () => {
-  test('', () => {
+  test('When there is a footer, it should appear on the page', () => {
     render(
       <BrowserRouter>
         <MainLayout />
